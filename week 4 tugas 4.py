@@ -13,4 +13,4 @@ elif (jenis_kelamin == "Wanita"):
         print("Wanita tidak boleh menikah")
 else:
     print("Jenis kelamin tidak terdaftar")
-    print("Hari tidak valid")                        
+
