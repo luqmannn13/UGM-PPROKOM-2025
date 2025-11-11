@@ -43,5 +43,7 @@ elif asal == 'K':
         hasil = konversi_suhu.k_to_f(nilai)
     else:
         hasil = nilai
+        
+print(f"{nilai}°{asal} = {hasil}°{tujuan}")
 
-print(f"{nilai}°{asal} = {hasil:.2f}°{tujuan}")
+
