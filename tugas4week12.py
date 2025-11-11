@@ -33,7 +33,7 @@ import transaksi
 def main():
     produk.tampilkan_produk()
 
-    nama_produk = input("Masukkan nama produk yang ingin dibeli: ")
+    nama_produk = input("Masukkan nama produk yang ingin dibeli: ").title())
     if nama_produk not in produk.daftar_produk:
         print("Produk tidak tersedia.")
         return
@@ -56,4 +56,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
